@@ -1,6 +1,6 @@
 {
   "name": "abbreviated-number-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Abbreviated number parser",
   "main": "index.js",
   "scripts": {

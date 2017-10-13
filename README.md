@@ -9,9 +9,9 @@ A small library to parse abbreviated number (10k,100m,50.5b) to number.
 
 ## Usage
 
-    var round = require('abbreviated-number-parser');
+    var parser = require('abbreviated-number-parser');
 
-    var rounded = round(100.5k);
+    var parsed = parse("100.5k");
   
   
   Output should be `100500`
