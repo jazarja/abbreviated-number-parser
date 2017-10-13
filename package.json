@@ -1,6 +1,6 @@
 {
   "name": "abbreviated-number-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abbreviated number parser",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,14 @@
     "mocha": "^3.5.0"
   },
   "author": "James Azarja",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazarja/abbreviated-number-parser.git"
+  },
+  "keywords": [
+    "abbreviations number",
+    "abbreviated number",
+    "number parser"
+  ]
 }

@@ -15,7 +15,7 @@ function is_numeric(string) {
 function charValueMultiplier(letter, options) {
     if (letter.toLowerCase()===options.symbols.trillion.toLowerCase())
     {
-        return 1000^4;
+        return Math.pow(1000,4);
     }
     if (letter.toLowerCase()===options.symbols.billion.toLowerCase())
     {
