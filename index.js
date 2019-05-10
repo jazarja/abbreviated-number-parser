@@ -49,7 +49,7 @@ module.exports = function (string, options) {
             }
         }
     }
-    string = string.replace(/ /, ' '); // remove spaces
+    string = string.replace(/\s/g, ''); // remove spaces
     var total = 0;
     var partial = 0;
     var partialFraction = 0;
@@ -73,7 +73,7 @@ module.exports = function (string, options) {
         }
         else {
             total += charValueMultiplier(c,options) * partial +
-                charValueMultiplier(c,options) * partialFraction / Math.pow(10, fractionLength);
+                (charValueMultiplier(c,options) * partialFraction / Math.pow(10, fractionLength));
 
             partial = 0;
             partialFraction = 0;

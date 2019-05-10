@@ -13,4 +13,9 @@ describe('abbreviated-number-parser', function () {
         var result = parser("100.5k");
         expect(result).to.equal(100500);
     });
+
+    it('should parse abbreviated number (with decimal)', function () {
+        var result = parser("30.0 M");
+        expect(result).to.equal(30000000);
+    });
 });
